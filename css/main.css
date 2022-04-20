@@ -1,0 +1,133 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+
+.cor-letra-forte {
+  color: #2C2A4A !important;
+}
+
+.cor-bg-forte {
+  background: #2C2A4A !important;
+}
+
+.cor-letra-clara {
+  color: #7FDEFF;
+}
+
+.my-justify {
+  text-align: justify;
+}
+
+.primeiro-alerta {
+  font-family: 'JejuMyeongjo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.bg-medio {
+  background: #4F518c;
+}
+
+.cor-amarelo {
+  background: yellow;
+}
+
+.cor-vermelho {
+  background: red;
+}
+
+.texto-branco {
+  color: white;
+}
+
+.bg-pag-princ{
+  background: #7EDEFF;
+}
+
+.bg-conteudo {
+  background: #BEB8EB;
+}
+
+.bg-header {
+  background-image: url('../img/header/bg_turtle.jpeg') !important;
+  height: 454px;
+  background-position-x:  0px;
+  background-position-y: 30%;
+  background-size: 100%;
+
+}
+.bg-content {
+  background-image: url('../img/bg/bgwater.jpg') !important;
+  background-size: 35%;
+  height: 3000px;
+}
+
+
+.titulo-grupo{
+  position: relative;
+  width: 336px;
+  height: 102px;
+  left: 15px;
+  top: 10px;
+  font-family: 'Hanalei Fill';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 83px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.37);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.explica-material{
+  font-family: 'Julius Sans One', sans-serif;
+  position: relative;
+  top: 270px;
+  left: 5px;
+  font-size: 36px;
+  width: fit-content;
+  color: black;
+  background: rgba(255, 255, 255, 0.45);
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.uptop {
+  font-family: 'Krona One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  color: #2C2A4A;
+}
+
+.uptop-back{
+  background: #DABFFF;
+}
+
+.ajusta-btn {
+  background: #2C2A4A;
+  border-radius: 20px;
+}
+
+.zeraPadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+
+.ajustaTamanhoImg{
+  overflow: hidden;
+  position: center;
+  max-width: 100%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+
+}
+
+.meu-padding {
+  padding-top:30px !important;
+}
