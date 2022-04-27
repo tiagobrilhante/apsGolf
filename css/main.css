@@ -9,7 +9,7 @@
 }
 
 .cor-letra-clara {
-  color: #7FDEFF;
+  color: #7FDEFF !important;
 }
 
 .my-justify {
@@ -59,7 +59,7 @@
 .bg-content {
   background-image: url('../img/bg/bgwater.jpg') !important;
   background-size: 35%;
-  height: 3000px;
+  height: 3500px;
 }
 
 
@@ -130,4 +130,19 @@
 
 .meu-padding {
   padding-top:30px !important;
+}
+
+
+.bg-footer {
+  background-image: url('../img/bg/FooterBG.png') !important;
+  height: 550px;
+  position: relative;
+  margin-top: -200px;
+  background-size: 110%;
+  background-position-x: auto;
+
+}
+
+.empurra_conteudo {
+  margin: 300px;
 }
