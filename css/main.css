@@ -175,3 +175,21 @@
 .puxa-pra-cima{
   margin-top: -10px;
 }
+
+.area-mapa-site {
+  background-color: rgba(255,255,255, 0.2);
+}
+
+.super-margim {
+  margin-top: 110px;
+  margin-left: 30px;
+}
+
+
+.puxa-pra-cima2{
+  margin-top: -20px;
+}
+
+.puxa-pra-cima3{
+  margin-top: -50px !important;
+}
