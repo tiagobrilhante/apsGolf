@@ -102,6 +102,27 @@
   color: #2C2A4A;
 }
 
+.dBottom {
+  font-family: 'Krona One';
+  font-style: normal;
+  font-size: 20px;
+  color: #2C2A4A;
+}
+
+.mapa-site {
+  font-family: 'Krona One';
+  font-style: normal;
+  font-size: 20px;
+  color: #2C2A4A;
+}
+
+.nossas-redes {
+  font-family: 'Krona One';
+  font-style: normal;
+  font-size: 15px;
+  color: #2C2A4A;
+}
+
 .uptop-back{
   background: #DABFFF;
 }
@@ -135,7 +156,7 @@
 
 .bg-footer {
   background-image: url('../img/bg/FooterBG.png') !important;
-  height: 550px;
+  height: 580px;
   position: relative;
   margin-top: -200px;
   background-size: 110%;
@@ -145,4 +166,12 @@
 
 .empurra_conteudo {
   margin: 300px;
+}
+
+.meu-padding-rede-social {
+   margin: 0 10px ;
+}
+
+.puxa-pra-cima{
+  margin-top: -10px;
 }
