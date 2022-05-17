@@ -1,4 +1,7 @@
 @import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+@import url(//fonts.cdnfonts.com/css/julius-sans-one);
+@import url(//fonts.googleapis.com/css2?family=Krona+One&amp;display=swap);
+@import url(//fonts.googleapis.com/css2?family=Hanalei+Fill&amp;family=Krona+One&amp;display=swap);
 
 .cor-letra-forte {
   color: #2C2A4A !important;
@@ -154,14 +157,13 @@
   padding-top: 30px !important;
 }
 
-
 .bg-footer {
   background-image: url('../img/bg/FooterBG.png') !important;
   height: 580px;
   position: relative;
   margin-top: -200px;
   background-size: 110%;
-  background-position-x: auto;
+  background-repeat: no-repeat;
 
 }
 
@@ -239,4 +241,8 @@ p {
   border-style: solid !important;
   border-width: 2px !important;
 
+}
+
+.link-sem-estilo {
+  text-decoration: none;
 }
