@@ -246,3 +246,7 @@ p {
 .link-sem-estilo {
   text-decoration: none;
 }
+
+.img-responsive-teste {
+  margin: 0 auto;
+}
