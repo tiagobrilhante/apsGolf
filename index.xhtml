@@ -39,7 +39,7 @@
   <div class="navbar navbar-expand-lg row navbar-light uptop-back">
     <div class="container-fluid">
       <a class="navbar-brand cor-letra-forte" href="#">Início</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+      <button class="navbar-toggler" type="button">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -1875,7 +1875,8 @@
                                               href="#conclusao">Conclusão</a> </span></li>
               <li><span class="mapa-site"> <a class="link-sem-estilo cor-letra-forte"
                                               href="#jogo">Jogo</a> </span></li>
-              <li><span class="mapa-site"> <a href="#modal_13" id="modal2_13" class="link-sem-estilo cor-letra-forte btnModalOpen">
+              <li><span class="mapa-site"> <a href="#modal_13" id="modal2_13"
+                                              class="link-sem-estilo cor-letra-forte btnModalOpen">
                 Quem somos?</a> </span></li>
             </ul>
             <br></br>
@@ -1961,6 +1962,10 @@
     jQuery(".btnModalOpen").click(function () {
         let teste = $(this).attr('id').split('_')[1];
         jQuery('#myModalCard' + teste).modal('toggle');
+    });
+
+    jQuery(".navbar-toggler").click(function () {
+        jQuery('#navbarSupportedContent').toggle();
     });
 
 
