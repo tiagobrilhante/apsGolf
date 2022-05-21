@@ -38,7 +38,7 @@
   <div class="navbar navbar-expand-lg row navbar-light uptop-back">
     <div class="container-fluid">
       <a class="navbar-brand cor-letra-forte" href="#">Início</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+      <button class="navbar-toggler" type="button">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -70,6 +70,10 @@
           <li class="nav-item">
             <a class="nav-link cor-letra-forte" href="#conclusao">Conclusão</a>
           </li>
+
+          <li class="nav-item">
+            <a class="nav-link cor-letra-forte" href="#jogo">Jogo</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -88,16 +92,16 @@
         <h3 class="text-center cor-bg-forte" id="intro">Introdução</h3>
         <p>
           O desenvolvimento sustentável é assunto que vem sendo debatido com muita frequência na atualidade e
-          caracteriza-se por ser um modelo econômico voltado a atender a economia sem que esta influencie negativamente
-          no meio ambiente, ou seja, satisfaz as necessidades humanas de consumo sem que para isto comprometa os
+          caracteriza-se por ser um modelo econômico voltado a atender a economia sem que ela influencie negativamente
+          no meio ambiente, ou seja, satisfaz as necessidades humanas de consumo sem que para isso comprometa os
           recursos naturais. </p>
         <p>Dessa forma, temos como objetivo geral avaliar o reflexo que tem a redução de
           sacolas plásticas no contexto da sustentabilidade. </p>
-        <p>Apresentaremos nesse blog, uma abordagem qualitativa e com base em meios bibliográficos sobre a importância
+        <p>Apresentaremos nesse blog uma abordagem qualitativa e com base em meios bibliográficos sobre a importância
           do assunto nos dias atuais.</p>
         <p> Observa-se que as práticas da sustentabilidade não se baseiam apenas na
-          preservação do meio ambiente, mas, na formação e construção de uma sociedade sustentável e consciente, fator
-          este que com certeza irá influenciar diretamente na preservação dos recursos naturais.
+          preservação do meio ambiente mas, na formação e construção de uma sociedade sustentável e consciente, fator
+          esse que com certeza irá influenciar diretamente na preservação dos recursos naturais.
         </p>
       </div>
 
@@ -130,20 +134,20 @@
           <br>
 
           <!-- Button trigger modal -->
-          <button type="button" class="m-3 btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModalCard1">
-            Leia Mais...
+          <button type="button" class="btnModalOpen m-3 btn btn-primary" id="modal_1">
+            Leia Mais
           </button>
 
         </div>
       </div>
 
       <!-- Modal  O fator degradador do meio ambiente-->
-      <div class="modal fade" id="myModalCard1" tabindex="-1">
+      <div class="modal fade" id="myModalCard1">
         <div class="modal-dialog modal-xl">
           <div class="modal-content ">
             <div class="modal-header">
               <h5 class="modal-title">O fator degradador do meio ambiente</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              <button type="button" id="colseModalTop_1" class="btn-close btnModalOpen"></button>
             </div>
             <div class="modal-body">
               <img src="img/content/lixo-no-zimbabue.jpeg" class="img-fluid rounded mx-auto d-block my-4"
@@ -175,7 +179,7 @@
 
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              <button id="closeModal_1" type="button" class="btn btn-secondary btnModalOpen">Fechar</button>
             </div>
           </div>
         </div>
@@ -206,20 +210,20 @@
             do número de perspectivas e vinculações ao contexto e ao campo de atuação... </p>
 
           <!-- Button trigger modal -->
-          <button type="button" class="m-3 btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModalCard2">
-            Leia Mais ...
+          <button type="button" class="m-3 btn btn-primary btnModalOpen" id="modal_2">
+            Leia Mais
           </button>
 
         </div>
       </div>
 
       <!-- Modal  card 2 - Definições de sustentabilidade-->
-      <div class="modal fade" id="myModalCard2" tabindex="-1">
+      <div class="modal fade" id="myModalCard2">
         <div class="modal-dialog modal-xl">
           <div class="modal-content ">
             <div class="modal-header">
               <h5 class="modal-title">Definições de sustentabilidade</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              <button type="button" id="colseModalTop_2" class="btn-close btnModalOpen"></button>
             </div>
             <div class="modal-body">
 
@@ -238,7 +242,7 @@
               </p>
 
               <!--espaço quote-->
-              <section class="vh-80 color-citation">
+              <div class="vh-80 color-citation">
                 <div class="container py-5 h-80">
                   <div class="row d-flex justify-content-center align-items-center">
                     <div class="col">
@@ -257,10 +261,10 @@
                               e surge do respeito
                               da forma como a sociedade utiliza os recursos naturais.
                             </p>
-                            <footer class="blockquote-footer pt-4 mt-4 border-top">
+                            <div class="blockquote-footer pt-4 mt-4 border-top">
                               SOUZA, 2020
                               <cite title="Source Title">p.1</cite>
-                            </footer>
+                            </div>
                           </blockquote>
                         </div>
                       </div>
@@ -268,7 +272,7 @@
                     </div>
                   </div>
                 </div>
-              </section>
+              </div>
 
               <p class="card-text my-justify px-3 pt-5">
                 Guimarães (2019), define a Sustentabilidade como sendo a capacidade em atender as necessidades da
@@ -368,7 +372,7 @@
 
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              <button id="closeModal_2" type="button" class="btn btn-secondary btnModalOpen">Fechar</button>
             </div>
           </div>
         </div>
@@ -408,20 +412,20 @@
             desenvolvimento econômico (AOUN, 2015, p.1).</p>
 
           <!-- Button trigger modal -->
-          <button type="button" class="m-3 btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModalCard3">
-            Leia Mais ...
+          <button type="button" class="m-3 btn btn-primary btnModalOpen" id="modal_3">
+            Leia Mais
           </button>
 
         </div>
       </div>
 
       <!-- Modal  card 3 - Objetivos da sustentabilidade-->
-      <div class="modal fade" id="myModalCard3" tabindex="-1">
+      <div class="modal fade" id="myModalCard3">
         <div class="modal-dialog modal-xl">
           <div class="modal-content ">
             <div class="modal-header">
               <h5 class="modal-title">Objetivos da sustentabilidade</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              <button type="button" id="colseModalTop_3" class="btn-close btnModalOpen"></button>
             </div>
             <div class="modal-body">
               <img src="img/content/484642_610a5f8dd7cc46dd96d705e4c545e3aa_mv2_d_1920_1280_s_2.jpeg"
@@ -465,7 +469,7 @@
 
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              <button id="closeModal_3" type="button" class="btn btn-secondary btnModalOpen">Fechar</button>
             </div>
           </div>
         </div>
@@ -494,20 +498,20 @@
           <div class="p-2"></div>
 
           <!-- Button trigger modal -->
-          <button type="button" class="m-3 btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModalCard4">
-            Leia Mais ...
+          <button type="button" class="m-3 btn btn-primary btnModalOpen" id="modal_4">
+            Leia Mais
           </button>
 
         </div>
       </div>
 
       <!-- Modal  card 4 -a importância da sustentabilidade -->
-      <div class="modal fade" id="myModalCard4" tabindex="-1">
+      <div class="modal fade" id="myModalCard4">
         <div class="modal-dialog modal-xl">
           <div class="modal-content ">
             <div class="modal-header">
               <h5 class="modal-title">A importância da sustentabilidade</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              <button type="button" id="colseModalTop_4" class="btn-close btnModalOpen"></button>
             </div>
             <div class="modal-body">
 
@@ -528,7 +532,7 @@
               <p class="card-text my-justify px-3">
                 Para Campos (2020):
               </p>
-              <section class="vh-80 color-citation">
+              <div class="vh-80 color-citation">
                 <div class="container py-5 h-80">
                   <div class="row d-flex justify-content-center align-items-center">
                     <div class="col">
@@ -548,9 +552,9 @@
                               mudanças nos hábitos de consumo, nas políticas ambientais e na melhoria de qualidade
                               de vida da população.
                             </p>
-                            <footer class="blockquote-footer pt-4 mt-4 border-top">
+                            <div class="blockquote-footer pt-4 mt-4 border-top">
                               CAMPOS, 2020
-                            </footer>
+                            </div>
                           </blockquote>
                         </div>
                       </div>
@@ -558,7 +562,7 @@
                     </div>
                   </div>
                 </div>
-              </section>
+              </div>
 
               <br>
               <p class="card-text my-justify px-3">
@@ -577,7 +581,7 @@
               </ul>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              <button id="closeModal_4" type="button" class="btn btn-secondary btnModalOpen">Fechar</button>
             </div>
           </div>
         </div>
@@ -601,9 +605,9 @@
           </div>
           <div class="col-9">
             <h3 class="text-center cor-bg-forte cor-letra-clara">As sacolas plásticas</h3>
-            <p class="cor-letra-forte my-justify primeiro-alerta"><h5>O Grupo Golf, optou por trazer a tona, um assunto
-            atual, por perceber a importância do mesmo no contexto do que está sendo apresentado sobre a
-            sustentabilidade.</h5></p>
+            <h5 class="cor-letra-forte my-justify primeiro-alerta">O Grupo Golf, optou por trazer a tona, um assunto
+              atual, por perceber a importância do mesmo no contexto do que está sendo apresentado sobre a
+              sustentabilidade.</h5>
             <p class="cor-letra-forte my-justify primeiro-alerta">A problemática envolvendo o uso de sacolas plásticas
               em estabelecimentos comerciais.</p>
             <p class="cor-letra-forte my-justify primeiro-alerta">As sacolas plásticas são embalagens que servem como
@@ -648,8 +652,8 @@
           <br><br><br><br>
 
           <!-- Button trigger modal -->
-          <button type="button" class="m-3 btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModalCardl3-1">
-            Leia Mais ...
+          <button type="button" class="m-3 btn btn-primary btnModalOpen" id="modal_5">
+            Leia Mais
           </button>
 
         </div>
@@ -657,12 +661,12 @@
       </div>
 
       <!-- Modal  card l3-1 - história do plástico-->
-      <div class="modal fade" id="myModalCardl3-1" tabindex="-1">
+      <div class="modal fade" id="myModalCard5">
         <div class="modal-dialog modal-xl">
           <div class="modal-content ">
             <div class="modal-header">
               <h5 class="modal-title">A história do plástico</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              <button type="button" id="colseModalTop_5" class="btn-close btnModalOpen"></button>
             </div>
             <div class="modal-body">
               <img src="img/content/sacola_lixo_2.jpeg"
@@ -693,7 +697,7 @@
               </p>
 
               <p class="card-text my-justify px-3">Para melhor entender a origem do saco plástico até as sacolas que
-                vemos hoje, abaixo a UNEP, apresenta a seguinte evolução:</p>
+                vemos hoje, a UNEP apresenta a seguinte evolução:</p>
 
               <!--tabela de conteúdos sobre historico-->
               <div class="container">
@@ -743,7 +747,7 @@
 
                   <tr>
                     <td>2011</td>
-                    <td>Mundialmente, um milhão de sacolas plásticas é consumido a cada minuto.
+                    <td>Mundialmente, um milhão de sacolas plásticas são consumidas a cada minuto.
                     </td>
                   </tr>
                   </tbody>
@@ -752,7 +756,7 @@
 
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              <button id="closeModal_5" type="button" class="btn btn-secondary btnModalOpen">Fechar</button>
             </div>
           </div>
         </div>
@@ -777,12 +781,12 @@
             comércio em geral
             têm como base o petróleo na sua fabricação. A utilização do petróleo para a manufatura de produtos, por si
             só, já é causadora de grandes problemas ambientais, pois contribui com a poluição do ar, com a emissão de
-            carbono na atmosfera, e com a degradação da fauna nos locais de extração, dentre outros (MARQUES et al.,
+            carbono na atmosfera e com a degradação da fauna nos locais de extração, dentre outros (MARQUES et al.,
             2010).</p>
 
           <!-- Button trigger modal -->
-          <button type="button" class="m-3 btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModalCardl3-2">
-            Leia Mais ...
+          <button type="button" class="m-3 btn btn-primary btnModalOpen" id="modal_6">
+            Leia Mais
           </button>
 
         </div>
@@ -790,12 +794,12 @@
       </div>
 
       <!-- Modal  card l3-2 - composicao das ascolas plasticas-->
-      <div class="modal fade" id="myModalCardl3-2" tabindex="-1">
+      <div class="modal fade" id="myModalCard6">
         <div class="modal-dialog modal-xl">
           <div class="modal-content ">
             <div class="modal-header">
               <h5 class="modal-title">Composição das sacolas plásticas</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              <button type="button" id="colseModalTop_6" class="btn-close btnModalOpen"></button>
             </div>
             <div class="modal-body">
               <img src="img/content/single-use-plastic-ban-featured-image-1024x683.jpeg"
@@ -810,7 +814,7 @@
               </p>
 
               <!--Espaço quote-->
-              <section class="vh-80 color-citation">
+              <div class="vh-80 color-citation">
                 <div class="container py-5 h-80">
                   <div class="row d-flex justify-content-center align-items-center">
                     <div class="col">
@@ -822,7 +826,7 @@
                               <i class="fa-solid fa-quote-right text-white"></i>
                             </div>
                             <p class="mb-0 mt-2 font-italic">
-                              As três etapas para a fabricação das sacolas são as seguintes:
+                              As três etapas para a fabricação das sacolas são as seguintes:</p>
                             <ol>
                               <li>grânulos de polietileno
                                 (que tem o tamanho de grãos de feijão) passam por uma extrusora que forma o filme
@@ -835,11 +839,10 @@
                                 máquina de corte e solda, onde é finalmente fabricada a sacolinha em seu formato final
                               </li>
                             </ol>
-                            </p>
-                            <footer class="blockquote-footer pt-4 mt-4 border-top">
+                            <div class="blockquote-footer pt-4 mt-4 border-top">
                               Szuster (2012)
                               <cite title="Source Title">p. 01</cite>
-                            </footer>
+                            </div>
                           </blockquote>
                         </div>
                       </div>
@@ -847,10 +850,10 @@
                     </div>
                   </div>
                 </div>
-              </section>
+              </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              <button id="closeModal_6" type="button" class="btn btn-secondary btnModalOpen">Fechar</button>
             </div>
           </div>
         </div>
@@ -877,20 +880,20 @@
             recurso não renovável (AGENDA AMBIENTAL, 2010)</p><br><br>
 
           <!-- Button trigger modal -->
-          <button type="button" class="m-3 btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModalCardl3-3">
-            Leia Mais ...
+          <button type="button" class="m-3 btn btn-primary btnModalOpen" id="modal_7">
+            Leia Mais
           </button>
 
         </div>
       </div>
 
       <!-- Modal  card l3-3 - consumo excessivo-->
-      <div class="modal fade" id="myModalCardl3-3" tabindex="-1">
+      <div class="modal fade" id="myModalCard7">
         <div class="modal-dialog modal-xl">
           <div class="modal-content ">
             <div class="modal-header">
               <h5 class="modal-title">Composição das sacolas plásticas</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              <button type="button" id="colseModalTop_7" class="btn-close btnModalOpen"></button>
             </div>
             <div class="modal-body">
               <img src="img/content/plastico-lixo.webp"
@@ -925,7 +928,7 @@
 
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              <button id="closeModal_7" type="button" class="btn btn-secondary btnModalOpen">Fechar</button>
             </div>
           </div>
         </div>
@@ -956,7 +959,7 @@
 
           <h5 class="p-2 m-0 card-title cor-letra-clara cor-bg-forte ">Aspectos da deterioração</h5>
 
-          <p class="card-text p-3 my-justify">Sendo a sacola plástica é feita de polímero – composto químico utilizado
+          <p class="card-text p-3 my-justify">Sendo a sacola plástica feita de polímero – composto químico utilizado
             em vários
             setores da indústria e presente em diversos produtos. Se o material ficar exposto às ações do meio ambiente,
             como a radiação solar, vai se degradar em partículas menores passíveis de serem digeridas por
@@ -965,20 +968,20 @@
             (FUNVERDE, 2016).</p>
 
           <!-- Button trigger modal -->
-          <button type="button" class="m-3 btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModalCardl3-4">
-            Leia Mais ...
+          <button type="button" class="m-3 btn btn-primary btnModalOpen" id="modal_8">
+            Leia Mais
           </button>
 
         </div>
       </div>
 
       <!-- Modal  card l3-4 - aspectos da deterioração-->
-      <div class="modal fade" id="myModalCardl3-4" tabindex="-1">
+      <div class="modal fade" id="myModalCard8">
         <div class="modal-dialog modal-xl">
           <div class="modal-content ">
             <div class="modal-header">
               <h5 class="modal-title">Aspectos da deterioração</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              <button type="button" id="colseModalTop_8" class="btn-close btnModalOpen"></button>
             </div>
             <div class="modal-body">
               <img src="img/content/mulher-segurando-sacolas-plasticas-com-lixo_23-2148523446.webp"
@@ -1009,7 +1012,7 @@
 
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              <button id="closeModal_8" type="button" class="btn btn-secondary btnModalOpen">Fechar</button>
             </div>
           </div>
         </div>
@@ -1032,24 +1035,24 @@
 
           <p class="card-text p-3 my-justify">A produção e o consumo de plástico geram muita discussão em todo mundo,
             principalmente em relação aos impactos ambientais causados por esse material. Por isso esse tema passou a
-            ser mais estudado por diversas organizações e ser visto com um olhar mais crítico permitindo levantar mais
+            ser mais estudado por diversas organizações e a ser visto com um olhar mais crítico permitindo levantar mais
             dados e ter medidas de como realizar de forma mais eficiente o manejo dos resíduos.</p>
           <br><br><br><br>
 
           <!-- Button trigger modal -->
-          <button type="button" class="m-3 btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModalCardl3-5">
-            Leia Mais ...
+          <button type="button" class="m-3 btn btn-primary btnModalOpen" id="modal_9">
+            Leia Mais
           </button>
         </div>
       </div>
 
       <!-- Modal  card l3-5 - impacto no meio ambiente-->
-      <div class="modal fade" id="myModalCardl3-5" tabindex="-1">
+      <div class="modal fade" id="myModalCard9">
         <div class="modal-dialog modal-xl">
           <div class="modal-content ">
             <div class="modal-header">
               <h5 class="modal-title">Impacto no meio ambiente</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              <button type="button" id="colseModalTop_9" class="btn-close btnModalOpen"></button>
             </div>
             <div class="modal-body">
               <img src="img/content/microplastiche_thumb_720_480.jpeg"
@@ -1072,7 +1075,7 @@
               </p>
 
               <!--Espaço quote-->
-              <section class="vh-80 color-citation">
+              <div class="vh-80 color-citation">
                 <div class="container py-5 h-80">
                   <div class="row d-flex justify-content-center align-items-center">
                     <div class="col">
@@ -1089,9 +1092,9 @@
                               intensa e afeta as espécies marinhas. 80% de todos os plásticos são usados apenas uma vez
                               e depois descartados, ou viram sacolas para acondicionar o lixo doméstico.
                             </p>
-                            <footer class="blockquote-footer pt-4 mt-4 border-top">
+                            <div class="blockquote-footer pt-4 mt-4 border-top">
                               FUNVERDE, 2022
-                            </footer>
+                            </div>
                           </blockquote>
                         </div>
                       </div>
@@ -1099,7 +1102,7 @@
                     </div>
                   </div>
                 </div>
-              </section>
+              </div>
 
               <br>
               <p class="card-text my-justify px-3">
@@ -1181,7 +1184,7 @@
 
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              <button id="closeModal_9" type="button" class="btn btn-secondary btnModalOpen">Fechar</button>
             </div>
           </div>
         </div>
@@ -1204,26 +1207,26 @@
           <h5 class="p-2 m-0 card-title cor-letra-clara cor-bg-forte ">Iniciativas para a solução</h5>
 
 
-          <p class="card-text p-3 my-justify">Conforme A redação do Pensamento Verde (2018), ao celebrar o Dia Mundial
+          <p class="card-text p-3 my-justify">Conforme a redação do "Pensamento Verde (2018)", ao celebrar o Dia Mundial
             do Meio
             Ambiente em junho de 2018, a ONU destacou os riscos que o planeta corre devido a poluição provocada pelos
             materiais plásticos, principalmente nos oceanos. Segundo dados da ONU, todos os anos são lançados nos
             oceanos 8 milhões de toneladas de plástico.</p><br><br><br><br><br>
 
           <!-- Button trigger modal -->
-          <button type="button" class="m-3 btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModalCardl3-6">
-            Leia Mais ...
+          <button type="button" class="m-3 btn btn-primary btnModalOpen" id="modal_10">
+            Leia Mais
           </button>
         </div>
       </div>
 
       <!-- Modal  card l3-6 - iniciativa para a solução do problema-->
-      <div class="modal fade" id="myModalCardl3-6" tabindex="-1">
+      <div class="modal fade" id="myModalCard10">
         <div class="modal-dialog modal-xl">
           <div class="modal-content ">
             <div class="modal-header">
               <h5 class="modal-title">Iniciativas para a solução do problema</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              <button type="button" id="colseModalTop_10" class="btn-close btnModalOpen"></button>
             </div>
             <div class="modal-body">
               <img src="img/content/sacola-plastica.jpeg"
@@ -1361,7 +1364,6 @@
                 limitação de sacolas plásticas em estabelecimentos comerciais:
               </p>
 
-
               <!--tabela de conteúdos solucoes pelo brasil-->
               <div class="container">
                 <table class="table table-sm table-bordered table-hover table-responsive table-striped">
@@ -1447,7 +1449,7 @@
                   </tr>
                   <tr>
                     <td>Recife (PE)</td>
-                    <td>Há lei municipal 17.475 de 2008 que obriga o uso de sacolas biodegradáveis. Prazo de implantação
+                    <td>Há a lei municipal 17.475 de 2008 que obriga o uso de sacolas biodegradáveis. Prazo de implantação
                       de um ano.
                     </td>
                   </tr>
@@ -1490,7 +1492,7 @@
 
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              <button id="closeModal_10" type="button" class="btn btn-secondary btnModalOpen">Fechar</button>
             </div>
           </div>
         </div>
@@ -1519,17 +1521,15 @@
             <p class="cor-letra-clara my-justify primeiro-alerta">
               Com a conscientização de quanto o uso das sacolas plásticas são prejudiciais ao meio ambiente, algumas
               alternativas estão surgindo para tentar reduzir seu uso. As sacolas biodegradáveis surgiram como uma
-              dessas alternativas, porém, elas exercem apenas uma função publicitária, para vender uma imagem ecológica.
-              Os materiais realmente biodegradáveis são provenientes de fontes naturais, capazes se serem consumidos por
+              dessas alternativas, porém elas exercem apenas uma função publicitária, para vender uma imagem ecológica.
+              Os materiais realmente biodegradáveis são provenientes de fontes naturais, capazes de serem consumidos por
               microrganismos e se degradam em 180 dias, o que não é o caso das sacolas ditas biodegradáveis.</p>
             <p> (REDAÇÃO
               PENSAMENTO VERDE, 2013). <!-- Button trigger modal -->
-              <button type="button" class="m-3 btn btn-primary" data-bs-toggle="modal"
-                      data-bs-target="#myModalAnternativa">
-                Leia Mais ...
+              <button type="button" class="m-3 btn btn-primary btnModalOpen" id="modal_11">
+                Leia Mais
               </button>
             </p>
-
 
           </div>
         </div>
@@ -1539,12 +1539,12 @@
     </div>
 
     <!-- Modal  Alternativas-->
-    <div class="modal fade" id="myModalAnternativa" tabindex="-1">
+    <div class="modal fade" id="myModalCard11">
       <div class="modal-dialog modal-xl">
         <div class="modal-content ">
           <div class="modal-header">
             <h5 class="modal-title">Alternativas para resolver o problema das sacolas plásticas</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            <button type="button" id="colseModalTop_11" class="btn-close btnModalOpen"></button>
           </div>
           <div class="modal-body">
             <img src="img/content/resolver-problemas.jpeg"
@@ -1552,11 +1552,11 @@
                  alt="Pessoa preocupada na solução de problemas olhando para uma parede cheias de post it com interrogações"/>
 
             <p class="card-text my-justify px-3 pt-3 pt-3">
-              Conforme publicação na página Redação Pensamento Verde (2013) é possível diminuir a uso das sacolas
+              Conforme publicação na página Redação Pensamento Verde (2013) é possível diminuir o uso das sacolas
               plásticas, algumas atitudes podem ajudar e muito nessa conquista, sendo elas: - Levar sua sacola na hora
               das compras. Não importa se a quantidade não é suficiente, pelo menos, boa parte das sacolas destinadas a
-              isso não serão utilizadas; - Utilizar ecobags ou sacolas de feira. Elas são feitas de matérias resistentes
-              e podem ser utilizadas por muito tempo; - Se precisar transportar muitos compras, opte pelo uso das caixas
+              isso não serão utilizadas; - Utilizar ecobags ou sacolas de feira. Elas são feitas de materiais resistentes
+              e podem ser utilizadas por muito tempo; - Se precisar transportar muitas compras, opte pelo uso das caixas
               de papelão.
             </p>
 
@@ -1577,7 +1577,7 @@
 
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            <button id="closeModal_11" type="button" class="btn btn-secondary btnModalOpen">Fechar</button>
           </div>
         </div>
       </div>
@@ -1612,8 +1612,8 @@
               em 2021. A data de 20 de outubro de 2023 é o limite para que não sejam vendidas ou distribuídas
               gratuitamente qualquer sacola plástica. São dois anos para a população se acostumar a utilizar as
               retornáveis (RADIORIOMARFM, 2021).</p>
-            <button type="button" class=" btn btn-sm btn-dark" data-bs-toggle="modal"
-                    data-bs-target="#myModalResumoLeis">
+
+            <button type="button" class="btn btn-sm btn-dark btnModalOpen" id="modal_12">
               Veja a tabela de resumo da legislação e mais informações
             </button>
           </div>
@@ -1627,12 +1627,12 @@
     <div class="col-1"></div>
 
     <!-- Modal  resumo-->
-    <div class="modal fade" id="myModalResumoLeis" tabindex="-1">
+    <div class="modal fade" id="myModalCard12">
       <div class="modal-dialog modal-xl">
         <div class="modal-content ">
           <div class="modal-header">
             <h5 class="modal-title">Resumo das legislações de Manaus-AM e mais informações</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            <button type="button" id="colseModalTop_12" class="btn-close btnModalOpen"></button>
           </div>
           <div class="modal-body">
 
@@ -1688,7 +1688,7 @@
             </p>
 
             <!--espaço quote-->
-            <section class="vh-80 color-citation">
+            <div class="vh-80 color-citation">
               <div class="container py-5 h-80">
                 <div class="row d-flex justify-content-center align-items-center">
                   <div class="col">
@@ -1705,9 +1705,9 @@
                             reforçar informações sobre a utilização de ecobags e alternativas que sejam atrativas, além
                             de dar clareza na informação sobre a destinação do valor arrecadado com a venda delas
                           </p>
-                          <footer class="blockquote-footer pt-4 mt-4 border-top">
+                          <div class="blockquote-footer pt-4 mt-4 border-top">
                             PEREIRA, 2021
-                          </footer>
+                          </div>
                         </blockquote>
                       </div>
                     </div>
@@ -1715,7 +1715,7 @@
                   </div>
                 </div>
               </div>
-            </section>
+            </div>
 
             <p class="card-text my-justify px-3 pt-3 pt-3">
               Para Pereira (2021), “Tudo isso deve ser feito com informação, diálogo e senso crítico. Se você for
@@ -1724,7 +1724,7 @@
             </p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            <button id="closeModal_12" type="button" class="btn btn-secondary btnModalOpen">Fechar</button>
           </div>
         </div>
       </div>
@@ -1746,16 +1746,16 @@
         <div class="col-7">
           <div class="m-1">
             <h3 class="text-center cor-letra-clara">Conclusão</h3>
-            <p class="cor-letra-clara my-justify primeiro-alerta">O grupo Golf, realizou uma pesquisa de cunho
+            <p class="cor-letra-clara my-justify primeiro-alerta">O grupo Golf realizou uma pesquisa de cunho
               bibliográfico
               sobre a sustentabilidade de forma geral, e procurou analizar a situação da utilização das sacolas
               plásticas e
-              a tentativa de redução do seu uso, como fator preponderante para a um reflexo positico na questão do meio
+              a tentativa de redução do seu uso como fator preponderante para a um reflexo positivo na questão do meio
               ambiente.</p>
 
             <p class="cor-letra-clara my-justify primeiro-alerta"> Foi possível observar que a literatura existente
               sobre o
-              assunto é bastante extensa, e apresenta uma gama variada de conceitos de diversos autores, no entanto,
+              assunto é bastante extensa e apresenta uma gama variada de conceitos de diversos autores, no entanto,
               tais
               conceitos tendem a convergir para o mesmo ponto. </p>
 
@@ -1766,20 +1766,20 @@
               outros
               benefícios. </p>
             <p class="cor-letra-clara my-justify primeiro-alerta">
-              Observou-se ainda, que mesmo o tema sendo abordado de forma a proporcionar o conhecimento do mal que as
+              Observou-se, ainda, que mesmo o tema sendo abordado de forma a proporcionar o conhecimento do mal que as
               sacolas causam ao meio ambiente, a maior parte da sociedade prefere optar pelas mesmas, o que causa um
-              desequilíbrio ambiental, haja vista, que elas são descartadas em locais inadequados e que sua decomposição
+              desequilíbrio ambiental, haja vista que elas são descartadas em locais inadequados e que sua decomposição
               é
-              muito lenta. Vale ressaltar que hoje em dia, o nível de instrução da população é considerado razoável em
-              relação ao malefício do descarte inadequado desse produto, e os efeitos relativos a poluição que ele
+              muito lenta. Vale ressaltar que, hoje em dia, o nível de instrução da população é considerado razoável em
+              relação ao malefício do descarte inadequado desse produto e os efeitos relativos a poluição que ele
               causa.</p>
             <p class="cor-letra-clara my-justify primeiro-alerta">
-              Enfim, a sustentabilidade no Brasil, anda a passos lentos, e muito falta a ser feito para minimizar e
+              Enfim, a sustentabilidade no Brasil anda a passos lentos, e muito falta a ser feito para minimizar e
               reduzir
-              o consumo de sacolas plásticas nas áreas comerciais, necessitando assim de políticas mais complexas para
+              o consumo de sacolas plásticas nas áreas comerciais, necessitando, assim, de políticas mais complexas para
               que a
-              sociedade, principalmente as autoridades se cosncientizem de que cada vez mais fica tarde para proteger o
-              meio ambiente e com isso favorecer as gerações futuras com os recursos naturais que hoje são desperdiçados
+              sociedade, principalmente as autoridades, se conscientizem de que cada vez mais fica tarde para proteger o
+              meio ambiente e, com isso, favorecer as gerações futuras com os recursos naturais que hoje são desperdiçados
               e
               agredidos.
             </p>
@@ -1799,6 +1799,42 @@
 
 
     <div class="col-1"></div>
+  </div>
+
+  <!--Jogo-->
+  <div class="row" id="jogo">
+
+    <div class="col-10 offset-1 mt-3">
+
+      <div class="alert bg-pag-princ align-self-center">
+        <div class="row">
+          <div class="col-3 align-self-center"><img src="img/content/recicleIt-Logo.png"
+                                                    class=" rounded d-block img-responsive-teste img-fluid "
+                                                    alt="Logo RecycleIt"/>
+          </div>
+          <div class="col-9">
+            <h3 class="text-center cor-bg-forte cor-letra-clara">Conhece o nosso jogo?</h3>
+            <p class="cor-letra-forte my-justify primeiro-alerta">O Grupo Golf também criou um jogo, falando sobre
+              sustentabilidade!</p>
+            <p class="cor-letra-forte my-justify primeiro-alerta">O jogo foi proposto por intermédio da disciplina de
+              Programação para Dispositivos Móveis e usou como base os conhecimentos fornecidos também pela disciplina
+              Interface Humano Computador!</p>
+            <p class="cor-letra-forte my-justify primeiro-alerta">Trata-se do RecycleIt, um jogo desafiador e divertido,
+              totalmente grátis, que busca ensinar as pessoas os conceitos de reciclagem e coleta seletiva do lixo! </p>
+            <p class="cor-letra-forte my-justify primeiro-alerta">No momento, ele funciona apenas para a plataforma
+              Android, e pode ser encontrado na PlayStore.  <!-- Button trigger download -->
+            </p>
+            <div class="text-center">
+              <a target="_blank" href="https://play.google.com/store/apps/details?id=appinventor.ai_tiagobrilhantemania.RecycleIt" class="btn btn-secondary btn-sm">
+                Clique aqui para baixar!</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
   </div>
 
   <span class="empurra_conteudo"></span>
@@ -1822,21 +1858,27 @@
         <div class="row mt-4 mx-2">
           <div class="col">
             <ul class="list-unstyled">
-              <li><span class="mapa-site"><a class="link-sem-estilo cor-letra-forte" href="#intro">Introdução</a></span></li>
+              <li><span class="mapa-site"><a class="link-sem-estilo cor-letra-forte" href="#intro">Introdução</a></span>
+              </li>
               <li><span class="mapa-site"><a class="link-sem-estilo cor-letra-forte"
                                              href="#fator_degrad">Sobre Sustentabilidade</a> </span></li>
-              <li><span class="mapa-site"><a class="link-sem-estilo cor-letra-forte" href="#sacolasP">Sobre o assunto </a></span></li>
+              <li><span class="mapa-site"><a class="link-sem-estilo cor-letra-forte"
+                                             href="#sacolasP">Sobre o assunto </a></span></li>
               <li><span class="mapa-site"> <a class="link-sem-estilo cor-letra-forte" href="#linhaH">Informações sobre sacolas plásticas</a></span>
               </li>
-              <li><span class="mapa-site"><a class="link-sem-estilo cor-letra-forte" href="#nalternativa">Alternativas</a> </span></li>
-              <li><span class="mapa-site"><a class="link-sem-estilo cor-letra-forte" href="#manaus">Manaus</a> </span></li>
-              <li><span class="mapa-site"> <a class="link-sem-estilo cor-letra-forte" href="#conclusao">Conclusão</a> </span></li>
-              <li><span class="mapa-site"> <a href="#quemSomosLink" class="link-sem-estilo cor-letra-forte" data-bs-toggle="modal"
-                                              data-bs-target="#myModalQuemSomos">
-        Quem somos?
-      </a> </span></li>
+              <li><span class="mapa-site"><a class="link-sem-estilo cor-letra-forte"
+                                             href="#nalternativa">Alternativas</a> </span></li>
+              <li><span class="mapa-site"><a class="link-sem-estilo cor-letra-forte" href="#manaus">Manaus</a> </span>
+              </li>
+              <li><span class="mapa-site"> <a class="link-sem-estilo cor-letra-forte"
+                                              href="#conclusao">Conclusão</a> </span></li>
+              <li><span class="mapa-site"> <a class="link-sem-estilo cor-letra-forte"
+                                              href="#jogo">Jogo</a> </span></li>
+              <li><span class="mapa-site"> <a href="#modal_13" id="modal2_13"
+                                              class="link-sem-estilo cor-letra-forte btnModalOpen">
+                Quem somos?</a> </span></li>
             </ul>
-            <br><br>
+            <br>
           </div>
         </div>
       </div>
@@ -1875,8 +1917,7 @@
     <div class="col-3 pt-2 pb-1">
 
       <!-- Button trigger modal -->
-      <a href="#quemSomosLink" id="quemSomosLink" class="link-sem-estilo dBottom cor-letra-clara" data-bs-toggle="modal"
-         data-bs-target="#myModalQuemSomos">
+      <a href="#modal_13" id="modal_13" class="link-sem-estilo dBottom cor-letra-clara btnModalOpen">
         Quem somos?
       </a>
 
@@ -1886,12 +1927,12 @@
   </div>
 
   <!-- Modal  quem somos-->
-  <div class="modal fade" id="myModalQuemSomos" tabindex="-1">
+  <div class="modal fade" id="myModalCard13">
     <div class="modal-dialog modal-xl">
       <div class="modal-content ">
         <div class="modal-header">
           <h5 class="modal-title">Quem Somos</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          <button type="button" id="colseModalTop_13" class="btn-close btnModalOpen"></button>
         </div>
         <div class="modal-body">
           <p class="my-justify p-3">Somos estudantes do primeiro período do curso de Ciência da Computação da UNIP,
@@ -1903,7 +1944,7 @@
 
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button id="closeModal_13" type="button" class="btn btn-secondary btnModalOpen">Fechar</button>
         </div>
       </div>
     </div>
@@ -1912,7 +1953,25 @@
 
 <!--JS-->
 <script src="js/bootstrap.bundle.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+
+    jQuery(".btnModalOpen").click(function () {
+        let teste = $(this).attr('id').split('_')[1];
+        jQuery('#myModalCard' + teste).modal('toggle');
+    });
+
+    jQuery(".navbar-toggler").click(function () {
+        jQuery('#navbarSupportedContent').toggle();
+    });
+
+
+</script>
 
 </body>
 
 </html>
+
+
